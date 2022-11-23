@@ -23,7 +23,7 @@ export default function LoginScreen() {
       <Text style={styles.inputLabel}>Famer Id</Text>
       <View style={styles.inputView}>
         <TextInput
-          style={styles.TextInput}
+          style={styles.inputBox}
           placeholderTextColor="#003f5c"
           onChangeText={(email) => setEmail(email)}
         />
@@ -31,7 +31,7 @@ export default function LoginScreen() {
       <Text style={styles.inputLabel}>Password</Text>
       <View style={styles.inputView}>
         <TextInput
-          style={styles.TextInput}
+          style={styles.inputBox}
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
           onChangeText={(password) => setPassword(password)}
@@ -94,13 +94,17 @@ const styles = StyleSheet.create({
     width: "80%",
     borderColor: "black"
   },
-  TextInput: {
+  inputBox: {
     height: 50,
-    marginTop: 10,
-    flex: 1,
-    padding: 10,
-    marginLeft: 20,
-    borderColor: "black"
+    paddingTop: 5,
+    paddingBottom: 5,
+    paddingLeft: 150,
+    paddingRight: 200,
+    borderColor: "black",
+    borderLeftWidth: 1,
+    borderRightWidth: 1,
+    borderBottomWidth: 1,
+    borderTopWidth: 1,
   },
   agreementLabel:{
     width: "80%",
