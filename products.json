@@ -1,0 +1,46 @@
+{
+    "products" : [
+        {
+            "key":1,
+            "name": "Benefit A",
+            "image" : "https://picsum.photos/200",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        },
+        {
+            "key":2,
+            "name": "Benefit B",
+            "image" : "https://picsum.photos/300",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        },
+        {
+            "key":3,
+            "name": "Benefit C",
+            "image" : "https://picsum.photos/400",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        },
+        {
+            "key":4,
+            "name": "Benefit D",
+            "image" : "https://picsum.photos/500",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        },
+        {
+            "key":5,
+            "name": "Benefit E",
+            "image" : "https://picsum.photos/600",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        },
+        {
+            "key":6,
+            "name": "Benefit F",
+            "image" : "https://picsum.photos/700",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price" : 50
+        }
+    ]
+}

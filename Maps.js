@@ -6,7 +6,7 @@ import {
   Dimensions,
   TouchableOpacity
 } from 'react-native'
-
+import PropTypes from 'prop-types';
 import MapView, {
   MAP_TYPES,
   Polygon,
